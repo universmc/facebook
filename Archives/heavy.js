@@ -1,7 +1,6 @@
 const express = require('express');
-const model = require('./ia.js');
 
-const port = 3141;
+const port = 5100;
 const app = express();
 
 app.get("/heavy", (req, res) => {
